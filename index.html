@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Entdecken Sie ausgewählte Antiquitäten, Gebrauchtmöbel und Raritäten von Sachslehner in Stillfried. Unverbindlich mit Abholung oder Lieferung anfragen.">
+  <title>Unsere Schätze — Sachslehner Antiquitäten</title>
+  <link rel="preconnect" href="https://0501.nccdn.net">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Italiana&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="../assets/sachslehner-favicon.png">
+  <link rel="stylesheet" href="../assets/site.css">
+  <link rel="stylesheet" href="../assets/catalog.css">
+</head>
+<body class="catalog-page">
+  <a class="skip" href="#catalog">Zu den Stücken</a>
+  <header class="catalog-header">
+    <a class="brand brand-lockup" href="../" aria-label="Doris und Walter Sachslehner – Startseite"><img class="brand-logo" src="../assets/sachslehner-logo.png" alt=""><span class="brand-wordmark"><b>Sachslehner</b><small>Doris &amp; Walter</small></span></a>
+    <div class="catalog-nav">
+      <a href="../">← Startseite</a>
+      <button class="basket-trigger" type="button">Auswahl <span class="basket-count" aria-live="polite">0</span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="catalog-hero">
+      <p class="kicker">Unsere Online-Auslage</p>
+      <h1>Entdecke unsere <em>Schätze.</em></h1>
+      <div class="catalog-lead">
+        <p>Wählen Sie Einzelstücke oder Sortimentsbereiche aus, die Sie interessieren. Wir bestätigen Preis und Verfügbarkeit persönlich und klären anschließend Abholung oder Lieferung.</p>
+        <ul aria-label="Vorteile">
+          <li><span>01</span> Galerieaufnahmen</li>
+          <li><span>02</span> Unverbindliche Anfrage</li>
+          <li><span>03</span> Abholung oder Lieferung</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="catalog-section" id="catalog">
+      <div class="catalog-title">
+        <div><p class="kicker">Aus der bestehenden Galerie</p><h2>Einzelstücke entdecken</h2></div>
+        <p><span class="item-count">2</span> Einzelstücke</p>
+      </div>
+      <div class="catalog-grid">
+        <p class="catalog-loading">Schätze werden geladen …</p>
+      </div>
+      <p class="archive-note">Die gezeigten Bilder stammen aus der vorhandenen Galerie. Die aktuelle Verfügbarkeit wird vor jedem Kauf persönlich bestätigt.</p>
+    </section>
+
+    <section class="search-section" id="sortimente">
+      <div class="catalog-title">
+        <div><p class="kicker">Wonach suchen Sie?</p><h2>Weitere Schätze anfragen</h2></div>
+        <p><span class="category-count">7</span> Sortimentsbereiche</p>
+      </div>
+      <p class="search-intro">Diese Galerieaufnahmen zeigen Bereiche aus dem Geschäft. Wählen Sie aus, was Sie interessiert, und fragen Sie nach aktuell verfügbaren Einzelstücken.</p>
+      <div class="interest-grid"><p class="catalog-loading">Sortimentsbereiche werden geladen …</p></div>
+    </section>
+
+    <section class="how-it-works">
+      <div><p class="kicker">Einfach &amp; persönlich</p><h2>So kommt Ihr Lieblingsstück zu Ihnen.</h2></div>
+      <ol>
+        <li><span>01</span><div><h3>Stücke auswählen</h3><p>Interessante Fundstücke in Ihre Auswahl legen.</p></div></li>
+        <li><span>02</span><div><h3>Anfrage senden</h3><p>Abholung oder Lieferung wählen und Kontaktdaten ergänzen.</p></div></li>
+        <li><span>03</span><div><h3>Details vereinbaren</h3><p>Wir bestätigen Zustand, Preis, Verfügbarkeit und Übergabe persönlich.</p></div></li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="catalog-footer">
+    <a class="brand brand-lockup footer-brand" href="../" aria-label="Doris und Walter Sachslehner – Startseite"><img class="brand-logo" src="../assets/sachslehner-logo.png" alt=""><span class="brand-wordmark"><b>Sachslehner</b><small>Doris &amp; Walter</small></span></a>
+    <p>Klein Stillfried 112<br>2262 Stillfried an der March</p>
+    <p><a href="tel:+43228321760">02283 21760</a><br><a href="mailto:doris@sachslehner.at">doris@sachslehner.at</a></p>
+  </footer>
+
+  <dialog class="basket-dialog" aria-labelledby="basket-title">
+    <div class="basket-head"><div><p class="kicker">Ihre Anfrage</p><h2 id="basket-title">Ausgewählte Stücke</h2></div><button class="basket-close" type="button" aria-label="Auswahl schließen">×</button></div>
+    <div class="basket-items" aria-live="polite"></div>
+    <div class="basket-empty"><span>◇</span><p>Ihre Auswahl ist noch leer.<br>Fügen Sie ein oder mehrere Stücke hinzu.</p></div>
+    <form class="request-form">
+      <fieldset class="handover"><legend>Wie möchten Sie das Stück erhalten?</legend><label><input type="radio" name="handover" value="Abholung in Stillfried" checked><span><b>Abholung</b><small>in Stillfried</small></span></label><label><input type="radio" name="handover" value="Lieferung anfragen"><span><b>Lieferung</b><small>Kosten anfragen</small></span></label></fieldset>
+      <label class="delivery-detail" hidden>Lieferort oder Postleitzahl<input name="location" autocomplete="postal-code" placeholder="z. B. 1010 Wien"></label>
+      <label class="delivery-detail" hidden>Stockwerk, Aufzug oder Zufahrt <small>(optional)</small><input name="access" placeholder="z. B. 2. Stock mit Aufzug"></label>
+      <div class="form-grid"><label>Name<input name="name" autocomplete="name" required></label><label>E-Mail oder Telefon<input name="contact" autocomplete="email" required></label></div>
+      <label>Nachricht<textarea name="message" rows="3" placeholder="Ich freue mich über nähere Informationen zu meiner Auswahl."></textarea></label>
+      <p class="request-note">Diese Anfrage ist unverbindlich. Ein Kauf kommt erst nach persönlicher Bestätigung von Preis und Verfügbarkeit zustande.</p>
+      <button class="button gold request-mail" type="submit">E-Mail-Anfrage vorbereiten <span>→</span></button>
+      <button class="copy-request" type="button">Anfrage kopieren</button>
+    </form>
+  </dialog>
+
+  <dialog class="preview-dialog" aria-labelledby="preview-title">
+    <button class="preview-close" type="button" aria-label="Ansicht schließen">×</button>
+    <div class="preview-image"><img alt=""></div>
+    <div class="preview-copy"><p class="product-number"></p><h2 id="preview-title"></h2><p class="preview-description"></p><button class="button gold preview-add" type="button">Zur Auswahl <span>＋</span></button></div>
+  </dialog>
+  <div class="catalog-toast" role="status" aria-live="polite"></div>
+  <script src="../assets/catalog.js"></script>
+</body>
+</html>

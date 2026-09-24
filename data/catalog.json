@@ -1,0 +1,112 @@
+{
+  "products": [
+    {
+      "id": "stueck-01",
+      "kind": "item",
+      "tag": "Einzelstück · Archivaufnahme",
+      "title": "Großer Vitrinenschrank mit Glastüren",
+      "image": "assets/products/vitrinenschrank-gross-ohne-code.jpg",
+      "note": "Preis & Verfügbarkeit auf Anfrage",
+      "description": "Preis, Maße, Zustand und Verfügbarkeit bestätigen wir gerne persönlich.",
+      "homepage": true,
+      "wide": true,
+      "visible": true
+    },
+    {
+      "id": "stueck-02",
+      "kind": "item",
+      "tag": "Einzelstück · Archivaufnahme",
+      "title": "Breiter Vitrinenschrank mit Glastüren",
+      "image": "assets/products/vitrinenschrank-breit-ohne-code.jpg",
+      "note": "Preis & Verfügbarkeit auf Anfrage",
+      "description": "Preis, Maße, Zustand und Verfügbarkeit bestätigen wir gerne persönlich.",
+      "homepage": true,
+      "wide": false,
+      "visible": true
+    },
+    {
+      "id": "stueck-03",
+      "kind": "category",
+      "tag": "Sortimentsbereich",
+      "title": "Sammlerstücke",
+      "image": "https://0501.nccdn.net/4_2/000/000/03f/ac7/img_20201204_152826.jpg",
+      "note": "Nach aktuellen Stücken fragen",
+      "description": "Wir zeigen Ihnen gerne aktuell verfügbare Einzelstücke aus diesem Bereich.",
+      "homepage": false,
+      "wide": false,
+      "visible": true
+    },
+    {
+      "id": "stueck-04",
+      "kind": "category",
+      "tag": "Sortimentsbereich",
+      "title": "Geschirr & Figuren",
+      "image": "https://0501.nccdn.net/4_2/000/000/017/e75/img_20201204_152842.jpg",
+      "note": "Nach aktuellen Stücken fragen",
+      "description": "Wir zeigen Ihnen gerne aktuell verfügbare Einzelstücke aus diesem Bereich.",
+      "homepage": false,
+      "wide": false,
+      "visible": true
+    },
+    {
+      "id": "stueck-05",
+      "kind": "category",
+      "tag": "Sortimentsbereich",
+      "title": "Krüge & Dekoration",
+      "image": "https://0501.nccdn.net/4_2/000/000/046/6ea/img_20201204_153146.jpg",
+      "note": "Nach aktuellen Stücken fragen",
+      "description": "Wir zeigen Ihnen gerne aktuell verfügbare Einzelstücke aus diesem Bereich.",
+      "homepage": false,
+      "wide": false,
+      "visible": true
+    },
+    {
+      "id": "stueck-06",
+      "kind": "category",
+      "tag": "Sortimentsbereich",
+      "title": "Tierfiguren",
+      "image": "https://0501.nccdn.net/4_2/000/000/083/d1a/img_20201204_153127.jpg",
+      "note": "Nach aktuellen Stücken fragen",
+      "description": "Wir zeigen Ihnen gerne aktuell verfügbare Einzelstücke aus diesem Bereich.",
+      "homepage": false,
+      "wide": false,
+      "visible": true
+    },
+    {
+      "id": "stueck-07",
+      "kind": "category",
+      "tag": "Sortimentsbereich",
+      "title": "Möbel & Wohnaccessoires",
+      "image": "https://0501.nccdn.net/4_2/000/000/046/6ea/img_20201204_153102.jpg",
+      "note": "Nach aktuellen Stücken fragen",
+      "description": "Wir zeigen Ihnen gerne aktuell verfügbare Einzelstücke aus diesem Bereich.",
+      "homepage": false,
+      "wide": false,
+      "visible": true
+    },
+    {
+      "id": "stueck-08",
+      "kind": "category",
+      "tag": "Sortimentsbereich",
+      "title": "Vitrinen & Schränke",
+      "image": "https://0501.nccdn.net/4_2/000/000/00f/745/img_20201204_152938.jpg",
+      "note": "Nach aktuellen Stücken fragen",
+      "description": "Wir zeigen Ihnen gerne aktuell verfügbare Einzelstücke aus diesem Bereich.",
+      "homepage": false,
+      "wide": false,
+      "visible": true
+    },
+    {
+      "id": "stueck-09",
+      "kind": "category",
+      "tag": "Sortimentsbereich",
+      "title": "Lampen & Kleinmöbel",
+      "image": "https://0501.nccdn.net/4_2/000/000/056/7dc/img_20201204_153004.jpg",
+      "note": "Nach aktuellen Stücken fragen",
+      "description": "Wir zeigen Ihnen gerne aktuell verfügbare Einzelstücke aus diesem Bereich.",
+      "homepage": false,
+      "wide": false,
+      "visible": true
+    }
+  ]
+}

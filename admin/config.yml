@@ -1,0 +1,53 @@
+# Vor der Veröffentlichung GITHUB-BENUTZERNAME durch den tatsächlichen Namen ersetzen.
+backend:
+  name: github
+  repo: GITHUB-BENUTZERNAME/sachslehner-website
+  branch: main
+  auth_methods: [token]
+
+media_folder: assets/uploads
+public_folder: assets/uploads
+
+media_libraries:
+  default:
+    config:
+      max_file_size: 10485760
+      slugify_filename: true
+      transformations:
+        raster_image:
+          format: webp
+          quality: 85
+          width: 2048
+          height: 2048
+
+collections:
+  - name: shop
+    label: Shop
+    files:
+      - name: katalog
+        label: Fotos und Anzeigen
+        file: data/catalog.json
+        format: json
+        fields:
+          - name: products
+            label: Anzeigen
+            label_singular: Anzeige
+            widget: list
+            add_to_top: true
+            summary: "{{fields.title}}"
+            fields:
+              - { name: id, label: Interne Kennung, widget: string, hint: "Kleinbuchstaben und Bindestriche, z. B. kommode-01", pattern: ["^[a-z0-9-]+$", "Nur Kleinbuchstaben, Zahlen und Bindestriche"] }
+              - name: kind
+                label: Art der Anzeige
+                widget: select
+                options:
+                  - { label: Einzelstück, value: item }
+                  - { label: Sortimentsbereich, value: category }
+              - { name: visible, label: Auf der Website sichtbar, widget: boolean, default: true }
+              - { name: tag, label: Kleine Überschrift, widget: string, default: "Einzelstück" }
+              - { name: title, label: Titel, widget: string }
+              - { name: image, label: Foto, widget: image }
+              - { name: note, label: Preis oder kurzer Hinweis, widget: string, default: "Preis & Verfügbarkeit auf Anfrage" }
+              - { name: description, label: Beschreibung, widget: text, required: false }
+              - { name: homepage, label: Auf der Startseite zeigen, widget: boolean, default: false }
+              - { name: wide, label: Große Darstellung im Shop, widget: boolean, default: false }
