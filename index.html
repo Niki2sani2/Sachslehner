@@ -3,98 +3,100 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Entdecken Sie ausgewählte Antiquitäten, Gebrauchtmöbel und Raritäten von Sachslehner in Stillfried. Unverbindlich mit Abholung oder Lieferung anfragen.">
-  <title>Unsere Schätze — Sachslehner Antiquitäten</title>
+  <meta name="description" content="Sachslehner Antiquitäten in Stillfried: Altwaren, Gebrauchtmöbel, Kunstgegenstände und besondere Einzelstücke entdecken.">
+  <title>Sachslehner — Antiquitäten &amp; besondere Stücke</title>
   <link rel="preconnect" href="https://0501.nccdn.net">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Italiana&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" href="../assets/sachslehner-favicon.png">
-  <link rel="stylesheet" href="../assets/site.css">
-  <link rel="stylesheet" href="../assets/catalog.css">
+  <link rel="icon" type="image/png" href="assets/sachslehner-favicon.png">
+  <link rel="stylesheet" href="assets/site.css">
+  <link rel="stylesheet" href="assets/home-shop.css">
 </head>
-<body class="catalog-page">
-  <a class="skip" href="#catalog">Zu den Stücken</a>
-  <header class="catalog-header">
-    <a class="brand brand-lockup" href="../" aria-label="Doris und Walter Sachslehner – Startseite"><img class="brand-logo" src="../assets/sachslehner-logo.png" alt=""><span class="brand-wordmark"><b>Sachslehner</b><small>Doris &amp; Walter</small></span></a>
-    <div class="catalog-nav">
-      <a href="../">← Startseite</a>
-      <button class="basket-trigger" type="button">Auswahl <span class="basket-count" aria-live="polite">0</span></button>
-    </div>
+<body>
+  <a class="skip" href="#main">Zum Inhalt</a>
+  <header class="topbar">
+    <a class="brand brand-lockup" href="#top" aria-label="Doris und Walter Sachslehner – Startseite"><img class="brand-logo" src="assets/sachslehner-logo.png" alt=""><span class="brand-wordmark"><b>Sachslehner</b><small>Doris &amp; Walter</small></span></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="Menü öffnen"><span></span><span></span></button>
+    <nav id="nav" aria-label="Hauptnavigation">
+      <a href="shop.html">Schätze</a><a href="#galerie">Galerie</a><a href="#besuch">Öffnungszeiten</a>
+      <a class="nav-cta" href="tel:+43228321760">02283 21760</a>
+    </nav>
   </header>
 
-  <main>
-    <section class="catalog-hero">
-      <p class="kicker">Unsere Online-Auslage</p>
-      <h1>Entdecke unsere <em>Schätze.</em></h1>
-      <div class="catalog-lead">
-        <p>Wählen Sie Einzelstücke oder Sortimentsbereiche aus, die Sie interessieren. Wir bestätigen Preis und Verfügbarkeit persönlich und klären anschließend Abholung oder Lieferung.</p>
-        <ul aria-label="Vorteile">
-          <li><span>01</span> Galerieaufnahmen</li>
-          <li><span>02</span> Unverbindliche Anfrage</li>
-          <li><span>03</span> Abholung oder Lieferung</li>
-        </ul>
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-image" role="img" aria-label="Blick in die Sachslehner Sammlung"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">Altwaren · Gebrauchtmöbel · Kunstgegenstände</p>
+        <h1>Alte Dinge.<br><em>Neue Lieblingsstücke.</em></h1>
+        <p class="lead">Entdecken Sie Möbel, Raritäten und Fundstücke mit Geschichte – persönlich ausgewählt in Stillfried an der March.</p>
+        <div class="hero-actions">
+          <a class="button gold" href="shop.html">Schätze entdecken <span>↗</span></a>
+          <a class="text-link" href="#besuch">Öffnungszeiten &amp; Anfahrt <span>→</span></a>
+        </div>
+      </div>
+      <p class="hero-note"><span>Seit 1996</span><br>in Stillfried</p>
+    </section>
+
+    <section class="intro wrap">
+      <p class="kicker">Sachslehner in Stillfried</p>
+      <div>
+        <h2>Besondere Stücke findet man nicht jeden Tag.</h2>
+        <p>In unserer Sammlung warten Möbel, Bilder, Dekoration und Alltagsgegenstände aus vergangenen Zeiten. Jedes Stück ist ein Einzelstück – am besten kommen Sie vorbei und sehen selbst.</p>
       </div>
     </section>
 
-    <section class="catalog-section" id="catalog">
-      <div class="catalog-title">
-        <div><p class="kicker">Aus der bestehenden Galerie</p><h2>Einzelstücke entdecken</h2></div>
-        <p><span class="item-count">2</span> Einzelstücke</p>
+    <section class="pieces treasures-teaser" id="stuecke">
+      <div class="section-head wrap">
+        <div><p class="kicker">Unsere Online-Auslage</p><h2>Entdecke unsere Schätze.</h2></div>
+        <a class="teaser-link" href="shop.html">Alle Stücke ansehen <span>→</span></a>
       </div>
-      <div class="catalog-grid">
-        <p class="catalog-loading">Schätze werden geladen …</p>
+      <div class="piece-grid wrap">
+        <a class="piece featured" href="shop.html#stueck-01"><img src="assets/products/vitrinenschrank-gross-ohne-code.jpg" alt="Großer Vitrinenschrank mit Glastüren" loading="lazy" decoding="async"><div class="piece-info"><div><p class="type">Einzelstück · Archivaufnahme</p><h3>Großer Vitrinenschrank mit Glastüren</h3></div><span class="card-arrow">→</span></div></a>
+        <a class="piece" href="shop.html#stueck-02"><img src="assets/products/vitrinenschrank-breit-ohne-code.jpg" alt="Breiter Vitrinenschrank mit Glastüren" loading="lazy" decoding="async"><div class="piece-info"><div><p class="type">Einzelstück · Archivaufnahme</p><h3>Breiter Vitrinenschrank mit Glastüren</h3></div><span class="card-arrow">→</span></div></a>
+        <a class="piece treasure-prompt" href="shop.html#sortimente"><div><p class="type">Weitere Schätze</p><span class="prompt-number">07</span><h3>Wonach suchen Sie?</h3><p>Sortimentsbereiche auswählen und aktuelle Stücke persönlich anfragen.</p><span class="prompt-link">Bereiche entdecken&nbsp; →</span></div></a>
       </div>
-      <p class="archive-note">Die gezeigten Bilder stammen aus der vorhandenen Galerie. Die aktuelle Verfügbarkeit wird vor jedem Kauf persönlich bestätigt.</p>
+      <div class="shop-intro-link wrap"><p>In der Online-Auslage können Sie Einzelstücke und Sortimentsbereiche auswählen und unverbindlich mit Abholung oder Lieferung anfragen.</p><a class="button gold" href="shop.html">Online-Auslage öffnen <span>↗</span></a></div>
     </section>
 
-    <section class="search-section" id="sortimente">
-      <div class="catalog-title">
-        <div><p class="kicker">Wonach suchen Sie?</p><h2>Weitere Schätze anfragen</h2></div>
-        <p><span class="category-count">7</span> Sortimentsbereiche</p>
-      </div>
-      <p class="search-intro">Diese Galerieaufnahmen zeigen Bereiche aus dem Geschäft. Wählen Sie aus, was Sie interessiert, und fragen Sie nach aktuell verfügbaren Einzelstücken.</p>
-      <div class="interest-grid"><p class="catalog-loading">Sortimentsbereiche werden geladen …</p></div>
+    <section class="gallery wrap" id="galerie">
+      <div class="gallery-copy"><p class="kicker">Ein Blick hinein</p><h2>Eine Sammlung voller Geschichten.</h2><p>Zwischen edlem Holz, alten Rahmen und kleinen Kuriositäten gibt es immer etwas Neues zu entdecken.</p><button class="text-link dark" data-open-gallery>Galerie öffnen <span>→</span></button></div>
+      <button class="gallery-main" data-index="0" aria-label="Galeriebild vergrößern"><img src="https://0501.nccdn.net/4_2/000/000/038/2d3/DSCF0636-2560x1440.jpg" alt="Blick in das Antiquitätengeschäft Sachslehner"></button>
+      <button class="gallery-small" data-index="1" aria-label="Galeriebild vergrößern"><img src="https://0501.nccdn.net/4_2/000/000/038/2d3/img_20201204_152418.jpg" alt="Detail aus der Sammlung"></button>
     </section>
 
-    <section class="how-it-works">
-      <div><p class="kicker">Einfach &amp; persönlich</p><h2>So kommt Ihr Lieblingsstück zu Ihnen.</h2></div>
-      <ol>
-        <li><span>01</span><div><h3>Stücke auswählen</h3><p>Interessante Fundstücke in Ihre Auswahl legen.</p></div></li>
-        <li><span>02</span><div><h3>Anfrage senden</h3><p>Abholung oder Lieferung wählen und Kontaktdaten ergänzen.</p></div></li>
-        <li><span>03</span><div><h3>Details vereinbaren</h3><p>Wir bestätigen Zustand, Preis, Verfügbarkeit und Übergabe persönlich.</p></div></li>
-      </ol>
+    <section class="visit" id="besuch">
+      <div class="visit-photo" role="img" aria-label="Antiquitäten und Gebrauchtmöbel in Stillfried"></div>
+      <div class="visit-card">
+        <p class="kicker">Vor Ort entdecken</p>
+        <h2>Wir freuen uns<br>auf Ihren Besuch.</h2>
+        <div class="details">
+          <div><span>Adresse</span><p>Klein Stillfried 112<br>2262 Stillfried an der March</p></div>
+          <div><span>Kontakt</span><p><a href="tel:+43228321760">02283 21760</a><br><a href="mailto:doris@sachslehner.at">doris@sachslehner.at</a></p></div>
+          <div><span>Öffnungszeiten</span><p>Di–Fr: 14:00–18:00 Uhr<br>Sa: 08:00–14:00 Uhr<br>Mo &amp; So geschlossen</p></div>
+        </div>
+        <a class="button gold" href="https://www.google.com/maps/search/?api=1&query=Klein+Stillfried+112%2C+2262+Stillfried+an+der+March" target="_blank" rel="noopener">Route planen <span>↗</span></a>
+      </div>
     </section>
   </main>
 
-  <footer class="catalog-footer">
-    <a class="brand brand-lockup footer-brand" href="../" aria-label="Doris und Walter Sachslehner – Startseite"><img class="brand-logo" src="../assets/sachslehner-logo.png" alt=""><span class="brand-wordmark"><b>Sachslehner</b><small>Doris &amp; Walter</small></span></a>
-    <p>Klein Stillfried 112<br>2262 Stillfried an der March</p>
-    <p><a href="tel:+43228321760">02283 21760</a><br><a href="mailto:doris@sachslehner.at">doris@sachslehner.at</a></p>
+  <footer>
+    <a class="brand brand-lockup footer-brand" href="#top" aria-label="Doris und Walter Sachslehner – Startseite"><img class="brand-logo" src="assets/sachslehner-logo.png" alt=""><span class="brand-wordmark"><b>Sachslehner</b><small>Doris &amp; Walter</small></span></a>
+    <p>Altwaren · Gebrauchtmöbel<br>Antiquitäten &amp; Kunstgegenstände</p>
+    <p>© <span id="year"></span> Doris und Walter Sachslehner<br><button data-imprint>Impressum</button></p>
   </footer>
 
-  <dialog class="basket-dialog" aria-labelledby="basket-title">
-    <div class="basket-head"><div><p class="kicker">Ihre Anfrage</p><h2 id="basket-title">Ausgewählte Stücke</h2></div><button class="basket-close" type="button" aria-label="Auswahl schließen">×</button></div>
-    <div class="basket-items" aria-live="polite"></div>
-    <div class="basket-empty"><span>◇</span><p>Ihre Auswahl ist noch leer.<br>Fügen Sie ein oder mehrere Stücke hinzu.</p></div>
-    <form class="request-form">
-      <fieldset class="handover"><legend>Wie möchten Sie das Stück erhalten?</legend><label><input type="radio" name="handover" value="Abholung in Stillfried" checked><span><b>Abholung</b><small>in Stillfried</small></span></label><label><input type="radio" name="handover" value="Lieferung anfragen"><span><b>Lieferung</b><small>Kosten anfragen</small></span></label></fieldset>
-      <label class="delivery-detail" hidden>Lieferort oder Postleitzahl<input name="location" autocomplete="postal-code" placeholder="z. B. 1010 Wien"></label>
-      <label class="delivery-detail" hidden>Stockwerk, Aufzug oder Zufahrt <small>(optional)</small><input name="access" placeholder="z. B. 2. Stock mit Aufzug"></label>
-      <div class="form-grid"><label>Name<input name="name" autocomplete="name" required></label><label>E-Mail oder Telefon<input name="contact" autocomplete="email" required></label></div>
-      <label>Nachricht<textarea name="message" rows="3" placeholder="Ich freue mich über nähere Informationen zu meiner Auswahl."></textarea></label>
-      <p class="request-note">Diese Anfrage ist unverbindlich. Ein Kauf kommt erst nach persönlicher Bestätigung von Preis und Verfügbarkeit zustande.</p>
-      <button class="button gold request-mail" type="submit">E-Mail-Anfrage vorbereiten <span>→</span></button>
-      <button class="copy-request" type="button">Anfrage kopieren</button>
-    </form>
+  <dialog class="lightbox" aria-label="Bildergalerie">
+    <button class="close" aria-label="Galerie schließen">×</button>
+    <button class="prev" aria-label="Vorheriges Bild">←</button>
+    <img alt="Vergrößertes Bild aus der Sachslehner Galerie">
+    <button class="next" aria-label="Nächstes Bild">→</button>
+    <p><span class="counter"></span> / 6</p>
   </dialog>
 
-  <dialog class="preview-dialog" aria-labelledby="preview-title">
-    <button class="preview-close" type="button" aria-label="Ansicht schließen">×</button>
-    <div class="preview-image"><img alt=""></div>
-    <div class="preview-copy"><p class="product-number"></p><h2 id="preview-title"></h2><p class="preview-description"></p><button class="button gold preview-add" type="button">Zur Auswahl <span>＋</span></button></div>
-  </dialog>
-  <div class="catalog-toast" role="status" aria-live="polite"></div>
-  <script src="../assets/catalog.js"></script>
+  <dialog class="imprint" aria-label="Impressum"><button class="close" aria-label="Impressum schließen">×</button><p class="kicker">Impressum</p><h2>Doris Sachslehner</h2><p>Klein Stillfried 112<br>2262 Stillfried an der March<br>Österreich</p><p>Telefon: 02283 21760<br>E-Mail: doris@sachslehner.at<br>UID: ATU 42945408</p><p>Einzelunternehmen · Aufsichtsbehörde: Bezirkshauptmannschaft Gänserndorf · GISA-Zahl: 12566655</p></dialog>
+  <script src="assets/site.js"></script>
 </body>
 </html>
